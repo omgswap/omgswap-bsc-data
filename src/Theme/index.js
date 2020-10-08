@@ -24,7 +24,7 @@ const theme = (darkMode, color) => ({
   shadowColor: darkMode ? '#000' : '#DAA520',
   mercuryGray: darkMode ? '#333333' : '#E1E1E1',
 
-  text1: darkMode ? '#E6E6E6' : '#1F1F1F',
+  text1: darkMode ? '#FDFDFD' : '#1F1F1F',
   text2: darkMode ? '#C3C5CB' : '#565A69',
   text3: darkMode ? '#6C7284' : '#888D9B',
   text4: darkMode ? '#565A69' : '#C3C5CB',
@@ -39,11 +39,11 @@ const theme = (darkMode, color) => ({
   bg3: darkMode ? '#242525' : '#EDEEF2',
   bg4: darkMode ? '#565A69' : '#CED0D9',
   bg5: darkMode ? '#565A69' : '#888D9B',
-  bg6: darkMode ? '#2A2E35' : '#FFFEFD',
+  bg6: darkMode ? '#2A2E35' : '#FFFAEE',
 
   //specialty colors
   modalBG: darkMode ? 'rgba(0,0,0,0.85)' : 'rgba(0,0,0,0.6)',
-  advancedBG: darkMode ? 'rgba(0,0,0,0.1)' : 'rgba(255,255,255,0.4)',
+  advancedBG: darkMode ? '#2A2E35' : '#FFFFFF',
   onlyLight: darkMode ? '#1A1E21' : 'transparent',
   divider: darkMode ? 'rgba(43, 43, 43, 0.435)' : 'rgba(43, 43, 43, 0.035)',
 
